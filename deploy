@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+make
+site=hotpath.kemitchell.com
+rsync --archive --compress --delete ./*.html "$site:/var/www/$site/"

@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "devDependencies": {
+    "kemarkdown": "^3.0.0"
+  }
+}
